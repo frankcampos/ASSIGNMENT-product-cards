@@ -1,0 +1,35 @@
+.card-wrapper {
+  display: flex;
+  background-color: aqua;
+  width: fit-content;
+  align-content:center;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+
+}
+/* .row {
+  display: flex;
+  align-content: center;
+  width: 33%;
+  flex-direction: row;
+  
+ 
+} */
+
+.card-wrapper>* {
+  flex: 1 1 160px;
+}
+
+
+.card {
+
+ 
+  
+  /* flex-direction: row;
+  width: fit-content;
+  justify-content: space-evenly;
+  margin-bottom: 35px;
+  align-content: center; */
+  
+
+}
