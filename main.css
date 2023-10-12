@@ -1,6 +1,6 @@
 .card-wrapper {
   /* display: flex; */
-  background-color: aqua;
+  /* background-color: aqua; */
   /* width:auto; */
   /* align-content:space-around; */
   /* flex-wrap: wrap; */
@@ -11,12 +11,20 @@
 }
 .row{
   display: flex;
-  background-color: black;
+  /* background-color: black; */
+  /* border-style: dotted; */
+  /* border-color: red; */
   flex-wrap: wrap;
-  align-items: space-around;
+  /* align-items: space-around; */
+  justify-content:space-around;
+  padding-top: 40px;
+ 
+  
 }
 .card {
   margin : 10px 10px 10px 10xp;
+  border-style: solid !important;
+  border-color: 100px blue !important;
   /* flex-direction: row; */
   /* align-items: center; */
   /* align-content: space-around; */
