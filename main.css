@@ -1,3 +1,11 @@
+/* fix the border-color to blue also, finish the card layout */
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Zeyada', cursive;
+}
 .card-wrapper {
   /* display: flex; */
   /* background-color: aqua; */
@@ -22,12 +30,21 @@
   
 }
 .card {
-  margin : 10px 10px 10px 10xp;
-  border-style: solid !important;
-  border-color: 100px blue !important;
+  /* margin : 10px 10px 10px 10xp; */
+  border-style: solid ;
+  border-color: 100px blue ;
   /* flex-direction: row; */
   /* align-items: center; */
   /* align-content: space-around; */
+}
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+  .card {
+    margin: top 20px;
+  }
 }
 
   
