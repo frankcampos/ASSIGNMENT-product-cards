@@ -26,17 +26,32 @@ font-family: 'Zeyada', cursive;
   /* align-items: space-around; */
   justify-content:space-around;
   padding-top: 40px;
- 
-  
-}
+  }
 .card {
   /* margin : 10px 10px 10px 10xp; */
   border-style: solid ;
   border-color: 100px blue ;
   /* flex-direction: row; */
   /* align-items: center; */
-  /* align-content: space-around; */
-}
+  /* align-content: space-around; */}
+
+  /* active te position */
+  .relative{
+    position: relative;
+  }
+/* the element get attached to its parent */
+  .absolute {
+    position:absolute;
+    width: 150%;
+    bottom: 200px;
+    left: 1px;
+
+  }
+
+
+
+
+
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
   body {
