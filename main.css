@@ -44,10 +44,13 @@ font-family: 'Zeyada', cursive;
     position:absolute;
     width: 150%;
     bottom: 200px;
-    left: 1px;
-
+    right: 1px;
   }
 
+  img {
+    width: 200px;
+    height: 400px;
+  }
 
 
 
